@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Word Counter</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="counter.css">
+  </head>
+  <body>
+
+    <div class="container">
+      <h1>THIS IS MY CUSTOM WORD COUNTER</h1>
+      <form>
+        <h2>Static counter</h2>
+        <div class="form-group">
+          <textarea class="form-control" id="staticbox" name="static_box" rows="8" cols="80" placeholder="THIS BOX WILL COMPUTE WORD COUNT AFTER TOTAL IS INPUT"></textarea>
+        </div>
+        <div class="form-group">
+          <button class="form-control btn btn-info" id="submit_button1" type="submit">SUBMIT</button>
+        </div>
+      </form>
+
+      <form>
+        <h2>Dynamic Counter</h2>
+        <div class="form-group">
+          <textarea class="form-control" id="dynamicbox" name="dyamic_box" rows="8" cols="80" placeholder="THIS BOX WILL COMPUTE WORD COUNT ALONG WITH YOUR ACTIVELY TYPING IN THE FIELD" oninput="mykeypress()"></textarea>
+        </div>
+        <div class="form-group" id="counter_background">
+          <span class="form-control" id='counter'>words:0</span>
+        </div>
+      </form>
+
+      <div class="my_info">
+        <h4>I hope you like my work</h4>
+        <h4>Name:Shray Sanan</h4>
+        <h4>Email:shraysanan@gmail.com</h4>
+        <h4>Phone number:7428485599</h4>
+      </div>
+    </div>
+
+    <script type="text/javascript" src="wordcounter.js"></script>
+  </body>
+</html>

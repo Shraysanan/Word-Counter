@@ -1,0 +1,26 @@
+body{
+  background: #74ebd5;
+background: -webkit-linear-gradient(to right, #ACB6E5, #74ebd5);
+background: linear-gradient(to right, #ACB6E5, #74ebd5);
+
+}
+h2{
+  text-align: center;
+  color: white;
+}
+h1{
+  margin-bottom: 30px;
+  text-align:center;
+  color: white;
+}
+.my_info{
+  margin-top: 30px;
+}
+#counter{
+  background-color: #17a2b8;
+  border: none;
+  color: white;
+}
+form{
+  margin-bottom: 50px;
+}
